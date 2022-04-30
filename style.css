@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 220px;
+    margin: 20px auto;
+}
+
+ul summary {
+    margin: 5px;
+}
+
+ol {
+    margin: 15px;
+}
+
+ol li {
+    margin: 5px;
+}
