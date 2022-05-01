@@ -2,7 +2,22 @@ h1 {
     text-align: center;
 }
 
-div {
+html, body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -15,18 +30,16 @@ ul {
     border-radius: 5px;
     max-width: 240px;
     margin: 20px auto;
-    align-items: center;
     padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
-ul summary {
-    margin: 5px;
-}
-
-ol {
-    margin: 15px;
-}
-
-ol li {
-    margin: 5px;
+ul button {
+  min-width: 100px;
+  min-height: 100px;
+  
+  box-sizing: border-box;
+  margin: 5px;
 }
